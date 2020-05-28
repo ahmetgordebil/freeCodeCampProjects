@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  box-sizing: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(196, 53, 172, 0.575),
+      rgba(180, 10, 214, 0.8)
+    ),
+    url(./background.jpg);
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  box-shadow: 10px 10px 20px 0px rgba(51, 51, 51, 0.9);
+  padding: 40px;
+  border: 1px, solid, white;
+  border-radius: 10px;
+}
+
+label,
+p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#name,
+#email,
+#number,
+.job > select,
+#lovedEmAll {
+  width: 80%;
+  height: 28px;
+  border: solid 1px purple;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.recommend {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkboxes > {
+  margin-top: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+header > p,
+h1 {
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  height: 10%;
+}
+
+button {
+  width: 30%;
+  align-self: center;
+  height: 30px;
+  border-radius: 7px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: white;
+  color: purple;
+  font-weight: 600;
+}
