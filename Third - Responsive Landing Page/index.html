@@ -11,7 +11,74 @@
 </head>
 
 <body>
+    <header id="header">
 
+        <img src="./img/logo.png" alt="" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="index.html#features">Features</a></li>
+                <li><a class="nav-link" href="index.html#video">How to Brew</a></li>
+                <li><a class="nav-link" href="index.html#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="video">
+            <iframe width="900" height="506" src="https://www.youtube.com/embed/2ovhbT-Iulc" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="card-section" id="features">
+            <div class="card">
+                <div id="icon1"><img src="./img/cup.svg" alt=""></div>
+                <h2>Premium Material</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, laudantium.</p>
+            </div>
+            <div class="card">
+                <div id="icon2"><img src="./img/cup2.svg" alt=""></div>
+                <h2>Fast Shipping</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, laudantium.</p>
+            </div>
+            <div class="card">
+                <div id="icon3"><img src="./img/mug.svg" alt=""></div>
+                <h2>Quality Assurance</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, laudantium.</p>
+            </div>
+        </div>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Enter your email for discounts and news">
+            <input id="submit" type="submit" value="Submit" class="btn" />
+        </form>
+        <div class="ribbons" id="pricing">
+            <div class="ribbon">
+                <p><span>29.99$</span></p>
+                <p>Guatemala</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eius?</p>
+                <a href="#">Select</a>
+            </div>
+            <div class="ribbon">
+                <p><span>39.99$</span></p>
+                <p>Sumatra</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eius?</p>
+                <a href="#">Select</a>
+            </div>
+            <div class="ribbon">
+                <p><span>49.99$</span></p>
+                <p>Old Brew</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eius?</p>
+                <a href="#">Select</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>Copyright 2020, Snip's Coffee House</p>
+    </footer>
 </body>
 
 </html>

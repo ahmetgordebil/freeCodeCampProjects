@@ -1,6 +1,188 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: #333333;
+}
+body {
+  background-color: #f4f4f4;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
+  background-color: rgba(245, 245, 245, 0.85);
+  position: sticky;
+  top: 0;
+}
+#header-img {
+  height: 50px;
+  margin-left: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 25px;
+}
+
+a {
+  color: black;
+}
+
+#video {
+  background-color: #3f3f3f;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card-section {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.card {
+  width: 16vw;
+  height: 80%;
+  padding: 20px;
+  border: #333333 solid 2px;
+  border-radius: 15px;
+}
+
+.card h2,
+.card p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#icon1,
+#icon2,
+#icon3 {
+  width: 80px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 70px;
+}
+
+#email {
+  font-size: 22px;
+  height: 40px;
+  width: 60%;
+  margin-right: 50px;
+  border-radius: 6px;
+  padding: 10px;
+  border-style: solid;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  color: #333333;
+  border-style: solid;
+  padding: 5px;
+  padding-right: 5px;
+}
+
+.btn:hover {
+  background-color: #333333;
+  color: #f4f4f4;
+}
+
+.ribbons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  margin-top: 70px;
+  background-color: #333333;
+}
+
+.ribbon {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f4f4f4;
+  width: 67%;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.ribbon p {
+  margin: 5px;
+}
+.ribbon a {
+  margin-left: 20px;
+  padding: 8px 18px;
+  background-color: #333333;
+  color: #f4f4f4;
+  border: 1px #333333 solid;
+}
+
+.ribbon a:hover {
+  background-color: #f4f4f4;
+  color: #333333;
+}
+
+span {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  align-items: center;
+}
+
+.links a {
+  margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+  * {
+    font-size: 12px;
+  }
+  span {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  #email {
+    font-size: 12px;
+  }
+  .card-section {
+    justify-content: center;
+  }
+
+  .card {
+    width: 30vw;
+    margin-left: 10px;
+  }
+}
+.ribbon{
+    padding: 10px;
 }
