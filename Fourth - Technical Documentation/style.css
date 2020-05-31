@@ -16,18 +16,16 @@ body > header {
   font: none;
   border-right: #333333 solid 3px;
   background-color: #333333;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-
-
+  height: 100vh;
+  position: sticky;
+  top: 0;
 }
 
-body > header > h1 {
-    font-size: 24px;
-    padding: 20px 10px;
-    background-color: #333333;
-    color: #d6d6d6;
+#navbar > header {
+  font-size: 24px;
+  padding: 20px 10px;
+  background-color: #333333;
+  color: #d6d6d6;
 }
 
 body > header li {
@@ -51,6 +49,40 @@ body > header li a:hover {
 
 main {
   width: 80%;
-  margin-left:40px;
+  margin-left: 40px;
+}
 
+main header {
+  padding: 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+main article p {
+  margin-left: 20px;
+  line-height: 1.3em;
+}
+
+main article ul {
+  line-height: 1.5em;
+  margin: 10px 0 10px 40px;
+}
+
+code {
+  background-color: #33333359;
+  display: block;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-family: monospace;
+  padding-right: 61vw;
+  line-height: 1.5em;
+  margin: 10px 0;
+}
+
+@media (max-width: 800px) {
+  main {
+    padding-right: 20px;
+    width: 70vw;
+    font-size: 12px;
+  }
 }
